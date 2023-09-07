@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+
+:root {
+    /*color bg */
+
+    --brackground: #0f0f0f;
+    --primary: #ff6700;
+    --secundary: #1f1f1f;
+
+    /*text color*/
+
+    --textgrey: #adb9c7;
+    --textwhite: #f3f4f6;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* TODO */
+    font-family: "Montserrat"; 
+
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 30px;
+    height: 65px;
+    background: var(--secundary);
+}
+
+
+.logo {
+    height: 60%;
+}
+
+
+.navbar,.navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.navbar {
+    gap: 100px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    font-size: 16px
+
+}
+
+
+ul a {
+    text-decoration: none;
+    color: var(--textgrey);
+}
+
+
+.navbar-list li:first-child > a {
+    color: var(--textwhite);
+    font-weight: 700;
+}
+
+
+.cart-icon {
+    width: 100%;
+    font-weight: 700;
+    border-radius: 10px;
+    height: 40px;
+    padding: 5px 10px;
+    margin-right: 1rem;
+    color: var(--primary);
+    cursor: pointer;
+    gap: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
