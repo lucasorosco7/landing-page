@@ -32,13 +32,14 @@
 header {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 0px 30px;
-    height: 65px;
+    padding: 0px 50px;
+    height: 60px;
     background: var(--secundary);
-
-    /* hacer scroleable */
+    position:fixed;
+    top: 0;
+    z-index: 2;
 }
 
 
@@ -61,15 +62,16 @@ header {
 ul {
     list-style: none;
     display: flex;
-    gap: 50px;
-    font-size: 16px
-
+    gap: 10px;
+    font-size: 14px;
+    
 }
 
 
 ul a {
     text-decoration: none;
     color: var(--textgrey);
+    padding: 10px;
 }
 
 
@@ -82,13 +84,9 @@ ul a {
 .cart-icon {
     width: 100%;
     font-weight: 700;
-    border-radius: 10px;
-    height: 40px;
-    padding: 5px 10px;
-    margin-right: 1rem;
+    height: 25px;
     color: var(--primary);
     cursor: pointer;
-    gap: 50px;
 }
 
 
@@ -107,8 +105,8 @@ main {
 }
 
 #hero {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 60px;
+    margin-bottom: 0;
     padding: 50px 50px;
     max-width: 1000px;
     display: flex;
@@ -125,9 +123,9 @@ main {
 }
 
 .hero-info-boton {
-    padding-top: 13px;
+    padding-top: 11px;
     gap: 10px;
-    width: 70%;
+    width: 100%;
 }
 
 .hero-info a {
@@ -161,7 +159,7 @@ main {
 }
 
 .hero-info p > span {
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .hero-img {
@@ -214,7 +212,7 @@ main {
 }
 
 .intro p > span {
-    font-weight: 800;
+    font-weight: 700;
 }
 
 
