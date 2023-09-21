@@ -8,6 +8,10 @@
     --primary: #ff6700;
     --secundary: #1f1f1f;
     --naranja1: #f83600;
+    --piel: #ffb8b8;
+    --grisclaro: #545454;
+    --grismedio: #3f3f3f;
+
 
     /*text color*/
 
@@ -17,8 +21,8 @@
 
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0 ;
+    padding: 0 ;
     box-sizing: border-box;
 
     /* TODO */
@@ -132,7 +136,7 @@ main {
 
     display: inline;
     border-radius: 15px;
-    font-size: 14px;
+    font-size: 16px;
     color: var(--textwhite);
     background: linear-gradient(90deg, #f83600, #ff6700);
     font-weight: 700;
@@ -152,7 +156,7 @@ main {
 }
 
 .hero-info p {
-    font-size: 15px;
+    font-size: 16px;
     width: 80%;
     font-weight: 400;
     color: var(--textgrey);
@@ -173,16 +177,15 @@ main {
 
 /* introduccion section */
 
-#Introduccion-1 {
-    margin-bottom: 50px;
-    padding: 50px 50px;
+#Intro {
+    padding: 50px;
     max-width: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.intro {
+.intro-content {
     display: flex;
     flex-direction:column;
     justify-content: center;
@@ -191,38 +194,154 @@ main {
     width: 90%;
 }
 
-.intro h2 {
+.intro-content h2 {
     justify-content: center;
     color: var(--textwhite);
     border-radius: 15px;
     padding: 20px;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 800;
     background: linear-gradient(90deg, #f83600, #ff6700);
     text-align: center;
     
 }
 
-.intro p {
+.intro-content p {
     text-align: justify;
     color: var(--textgrey);
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 400;
 
 }
 
-.intro p > span {
+.intro-content p > span {
     font-weight: 700;
 }
 
 
+/* Introduccion 2 section  */
+
+#intro-2 {
+    padding: 40px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+#intro-2 h2 {
+    color: var(--textwhite);
+    font-size: 24px;
+    font-weight: 800;
+    background: linear-gradient(90deg, #f83600, #ff6700);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+#intro-2 h3 {
+    justify-content: center;
+    color: var(--textwhite);
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#intro-2 p {
+    text-align: justify;
+    justify-content: center;
+    color: var(--textgrey);
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#intro-2 p > span {
+font-weight: 700;
+
+}
+
+/* cards  section */
+
+#cards {
+
+    padding: 40px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+#cards h2 {
+    color: var(--textwhite);
+    font-size: 24px;
+    font-weight: 800;
+    background: linear-gradient(90deg, #f83600, #ff6700);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#cards p {
+    width: 600px;
+    color: var(--textgrey);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.info-cards-container {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 40px;
+} 
+
+.info-cards {
+
+    width: 300px;
+    height: 500px;
+    padding: 40px 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    background-color: var(--secundary);
+    border-radius: 10px;
+    gap: 30px;
+
+}
+
+.info-cards h3 {
+    color: var(--textwhite);
+    font-size: 24px;
+    font-weight: 800;
+    background: linear-gradient(90deg, #f83600, #ff6700);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.info-cards img {
+    height: 200px;
+
+}
 
 
 
-
-
-
-
-
+.info-cards h4 {
+    color: var(--textgrey);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
 
 
