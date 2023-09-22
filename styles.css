@@ -33,6 +33,10 @@
 }
 
 
+
+
+/* navbar section */
+
 header {
     width: 100%;
     display: flex;
@@ -94,7 +98,12 @@ ul a {
 }
 
 
-/*hero section */
+
+
+
+
+
+
 
 main {
     background: var(--brackground);
@@ -102,20 +111,23 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: var(--textgrey);
-    width: 100%;
 
 
 }
 
+/*hero section */
+
+
 #hero {
     margin-top: 60px;
-    margin-bottom: 0;
     padding: 50px 50px;
-    max-width: 1000px;
+    max-width: 1200px;
     display: flex;
-    justify-content:center;
-    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 
 
@@ -123,10 +135,12 @@ main {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    width: 50%;
+    max-width: 550px;
 }
 
 .hero-info-boton {
+    display: inline;
+    flex-wrap: wrap;
     padding-top: 11px;
     gap: 10px;
     width: 100%;
@@ -134,7 +148,6 @@ main {
 
 .hero-info a {
 
-    display: inline;
     border-radius: 15px;
     font-size: 16px;
     color: var(--textwhite);
@@ -148,7 +161,7 @@ main {
 
 .hero-info h1 {
     font-size: 40px;
-    width: 80%;
+    max-width: 600px;
     font-weight: 800;
     color: var(--textwhite);
     min-width: 350px;
@@ -157,7 +170,7 @@ main {
 
 .hero-info p {
     font-size: 16px;
-    width: 80%;
+    max-width: 600px;
     font-weight: 400;
     color: var(--textgrey);
 }
@@ -167,34 +180,34 @@ main {
 }
 
 .hero-img {
-    color: var(--textgrey);
     background: linear-gradient(90deg, #f83600, #ff6700);
     width: 400px;
+    min-width: 400px;
     border-radius: 50%;
     padding: 10px 19px 19px 0px ;
-    display: flex;
 }
+
+
+
+
 
 /* introduccion section */
 
 #Intro {
-    padding: 50px;
-    max-width: 800px;
+    padding: 40px;
+    max-width: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 40px;
 }
 
-.intro-content {
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-content: center;
-    gap: 18px;
-    width: 90%;
-}
 
-.intro-content h2 {
+
+
+#Intro h2 {
+    max-width: 600px;
     justify-content: center;
     color: var(--textwhite);
     border-radius: 15px;
@@ -206,17 +219,21 @@ main {
     
 }
 
-.intro-content p {
-    text-align: justify;
+#Intro p {
+    max-width: 600px;
+    text-align: center;
     color: var(--textgrey);
     font-size: 16px;
     font-weight: 400;
 
 }
 
-.intro-content p > span {
+#Intro p > span {
     font-weight: 700;
 }
+
+
+
 
 
 /* Introduccion 2 section  */
@@ -252,7 +269,8 @@ main {
 }
 
 #intro-2 p {
-    text-align: justify;
+    max-width: 600px;
+    text-align: center;
     justify-content: center;
     color: var(--textgrey);
     padding: 10px;
@@ -265,7 +283,13 @@ font-weight: 700;
 
 }
 
+
+
+
+
+
 /* cards  section */
+
 
 #cards {
 
@@ -289,7 +313,7 @@ font-weight: 700;
 }
 
 #cards p {
-    width: 600px;
+    max-width: 600px;
     color: var(--textgrey);
     font-size: 16px;
     font-weight: 400;
@@ -301,6 +325,7 @@ font-weight: 700;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
+    flex-wrap: wrap;
     gap: 40px;
 } 
 
@@ -344,4 +369,17 @@ font-weight: 700;
     text-align: center;
 }
 
+#contact {
+    background: var(--grismedio);
+    
+}
 
+.contact-container {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+}
