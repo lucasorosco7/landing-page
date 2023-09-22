@@ -111,6 +111,8 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: var(--text-white);
+    width: 100%;
 
 
 }
@@ -415,7 +417,6 @@ font-weight: 700;
 
 .contact-redes {
     display: inline;
-    align-items: center;
     gap: 10px;
 }
 
@@ -431,7 +432,7 @@ font-weight: 700;
 
 }
 .contact-redes img {
-    width: 20px;
+    height: 20px;
 }
 
 .contact-map {
@@ -466,7 +467,7 @@ footer {
 footer a {
     color: var(--textgrey);
     font-weight: 400;
-    font-size: 12px;
+    font-size: 12git px;
 
 }
 
